@@ -9,14 +9,16 @@ This project deploy 3 EC2 instances t2.micro Windows Server 2019 on AWS using te
  - UKDC1: Replica AD
 
 ## Run Terraform commands on your PC:
-    cd terraform
-    terraform init
-    terraform plan
-    terraform apply
-    terraform output -json
+```sh
+cd terraform
+terraform init
+terraform plan
+terraform apply
+terraform output -json
+```
 
 ## Connect using RDP to every server using the terraform output.
-For this, use the output from terraform
+For this, use the output from terraform and connecto via RDP
 
 
 ## Bootstrap scripts
